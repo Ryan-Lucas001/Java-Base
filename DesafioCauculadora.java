@@ -22,7 +22,6 @@ public class DesafioCalculadora {
 
         resultado = "-".equals(operaçao) ? num1 - num2 : resultado; // : = caso contrario
 
-        resultado = "".equals(operaçao) ? num1 num2 : resultado;
 
         resultado = "/".equals(operaçao) ? num1 / num2 : resultado;
 
