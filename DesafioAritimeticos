@@ -1,0 +1,33 @@
+package fundamentos.operadores;
+
+public class DesafiosAritimeticos {
+    public static void main(String[] args) {
+
+        // Minha resposta
+
+        int a = 6 * 5;
+        int b = (int)Math.pow(a, 2);
+        int c = b / 6;
+
+        int d = 4 * 5;
+        int s = d / 2;
+        int q = (int)Math.pow(s, 2);
+
+        int w = c - q;
+        int x = (int)Math.pow(w, 3);
+
+        int f = 10;
+        int y = (int)Math.pow(f, 3);
+
+        int k = x / y;
+
+        System.out.println("O resultado dessa operação =  " + k);
+
+
+
+
+    }
+
+
+
+}
